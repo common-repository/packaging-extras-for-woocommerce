@@ -1,0 +1,116 @@
+.wrap > h1 {
+    margin-bottom: 16px;
+}
+
+.postbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 -8px;
+}
+
+.postbox {
+    width: calc(33.333% - 16px);
+    margin: 0 8px 20px;
+    box-sizing: border-box;
+}
+
+.postbox.colspan-2 {
+    width: calc(66.666% - 16px);
+}
+
+.postbox.colspan-3 {
+    width: calc(100% - 16px);
+}
+
+.postbox h2 {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.postbox .inside {
+    margin-bottom: 0;
+}
+
+#woocommerce-packaging-overview-glance ul,
+#woocommerce-packaging-overview-links ul {
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#woocommerce-packaging-overview-glance li,
+#woocommerce-packaging-overview-links li {
+    width: 50%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#woocommerce-packaging-overview-glance li a:before,
+#woocommerce-packaging-overview-links li a:before {
+    color: #646970;
+    font: normal 20px/1 dashicons;
+    display: inline-block;
+    padding: 0 8px 0 0;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    vertical-align: top;
+}
+
+#woocommerce-packaging-overview-links .upgrade-link a:before {
+    content: '\f342';
+}
+
+#woocommerce-packaging-overview-links .features-link a:before {
+    content: '\f14c';
+}
+
+#woocommerce-packaging-overview-links .support-link a:before {
+    content: '\f130';
+}
+
+#woocommerce-packaging-overview-links .review-link a:before {
+    content: '\f155';
+}
+
+#woocommerce-packaging-overview-links .plugin-shop-link a:before {
+    content: '\f106';
+}
+
+#woocommerce-packaging-overview-glance .product-count a:before {
+    content: '\f312';
+}
+
+#woocommerce-packaging-overview-glance .instock-count a:before {
+    content: '\f147';
+}
+
+#woocommerce-packaging-overview-glance .nostock-count a:before {
+    content: '\f534';
+}
+
+#woocommerce-packaging-overview-glance .lowstock-count a:before {
+    content: '\f460';
+}
+
+.nomargin {
+    margin: 0;
+}
+
+#woocommerce-packaging-upgrade-msg p {
+    margin-bottom: 5px;
+}
+
+#woocommerce-packaging-upgrade-msg ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#woocommerce-packaging-upgrade-msg ul li {
+    margin: 0;
+}

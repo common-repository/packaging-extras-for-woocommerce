@@ -1,0 +1,7 @@
+#woocommerce-product-data ul.wc-tabs .woo_packaging_materials_usage_tab > a::before {
+    content: '\f312';
+}
+
+.woocommerce_options_panel .woo_packaging_materials_num_stock_to_remove_label input[type="number"].woo_packaging_materials_num_stock_to_remove {
+    margin-left: 10px;
+}
